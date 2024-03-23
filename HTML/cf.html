@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Guide Community</title>
+    <link rel="stylesheet" href="cf.css">
+</head>
+<body>
+    <header>
+        <h1>Local Guide Community</h1>
+    </header>
+    <section class="user-type">
+        <h2>Are you a Local Guide or a Traveler?</h2>
+        <div class="options">
+            <button id="local-guide-btn">Local Guide</button>
+            <button id="traveler-btn">Traveler</button>
+        </div>
+    </section>
+    <section class="form-section hidden" id="local-guide-form">
+        <h2>Post Daily Updates</h2>
+        <form action="#" method="post">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" rows="4" required></textarea>
+            <button type="submit">Post</button>
+        </form>
+    </section>
+    <section class="form-section hidden" id="traveler-form">
+        <h2>Find Local Updates</h2>
+        <label for="location">Enter Your Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter your location" required>
+        <button id="find-guides-btn">Find Updates</button>
+    </section>
+    <section class="posts hidden" id="guide-posts">
+        <h2>Nawab Bhai </h2>
+        <div class="post">
+            <h3>Best Local Haleem</h3>
+            <p>Shadab Hotel,Tollichowk, Old City ....One of the best haleem you can find ever.Can take your soul to heaven and back.Sab ki jaan haleem can find them selling after 6:00 pm.</p>
+            <small>[97037262983]-Nawab Bhai</small>
+        </div>
+        <!-- More posts go here -->
+    </section>
+</body>
+<script src="cf.js"></script>
+</html>
